@@ -1,14 +1,28 @@
-@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,500,700,800);
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,300,500,700,800);
 @import url(http://fonts.googleapis.com/css?family=Lobster);
-/*!
- * Clean v2.0.0
- * Homepage: http://scripteden.com
- * Copyright 2015 Script Eden
- * Licensed under MIT
-*/
+@font-face {
+	font-family: 'Montserrat';
+	src: url('./fonts/Montserrat-Bold.ttf') format('truetype');
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('./fonts/Montserrat-SemiBold.ttf') format('truetype');
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('./fonts/Montserrat-Regular.ttf') format('truetype');
+	font-style: normal;
+	font-display: swap;
+}
 
 body {
-	font: 300 14px/1.8 'Raleway', sans-serif;
+	font: 300 14px/1.8 'Montserrat', sans-serif;
 	color: #666;
 	overflow-x: hidden;
 }
@@ -61,7 +75,7 @@ a, .btn {
 /* ---------------------------------------------- */
 
 h1, h2, h3, h4, h5, h6 {
-	font: 700 40px/1.2 Raleway, sans-serif;
+	font: 700 40px/1.2 Montserrat, sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 5px;
 	margin: 5px 0 5px;
@@ -158,7 +172,7 @@ textarea.form-control {
 /* ---------------------------------------------- */
 
 .btn {
-	font-family: Raleway, sans-serif;
+	font-family: Montserrat, sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	font-size: 13px;
@@ -241,7 +255,7 @@ textarea.form-control {
 }
 
 .pfblock-subtitle {
-	font-family: Raleway, "Times New Roman", Times, sans-serif;
+	font-family: Montserrat, "Times New Roman", Times, sans-serif;
 	font-style: normal;
 	font-size: 18px;
 }
@@ -354,7 +368,7 @@ textarea.form-control {
 }
 
 .start {
-	font-family: Raleway, "Times New Roman", Times, sans-serif;
+	font-family: Montserrat, "Times New Roman", Times, sans-serif;
 	font-size: 16px;
 	font-style: normal;
 	text-transform: none;
@@ -496,7 +510,7 @@ textarea.form-control {
 	border-radius: 0;
 	margin: 0;
 	text-transform: uppercase;
-	font-family: Raleway, sans-serif;
+	font-family: Montserrat, sans-serif;
 }
 
 .navbar-custom, .navbar-custom .dropdown-menu {
@@ -519,7 +533,7 @@ textarea.form-control {
 .navbar-custom .navbar-brand {
 	font-weight: 700;
 	font-size: 22px;
-	font-family: Raleway, cursive;
+	font-family: Montserrat, cursive;
 }
 
 .navbar-custom .dropdown-menu {
